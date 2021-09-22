@@ -1,0 +1,12 @@
+.order-details {
+
+    & table {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        text-align: center;
+
+        & td {
+            padding: 2rem 0;
+        }
+    }
+}

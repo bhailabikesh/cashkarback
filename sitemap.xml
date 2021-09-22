@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+      <loc>https://www.cashkar.in/sitemap3.xml</loc>
+    </sitemap>
+    <sitemap>
+      <loc>http://www.cashkar.in/sitemap2.xml</loc>
+    </sitemap>
+    <!-- images site map-->
+    <sitemap>
+      <loc>http://www.cashkar.in/image-sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+      <loc>http://www.cashkar.in/image-sitemap2.xml</loc>
+    </sitemap>
+    
+  </sitemapindex>

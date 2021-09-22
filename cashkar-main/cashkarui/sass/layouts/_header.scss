@@ -1,0 +1,183 @@
+.header {
+
+    // Top
+    &__top {
+        background: $color-grey;
+
+        &--search {
+
+
+            & .search {
+                flex: 0 0 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                &__input {
+                    border-radius: 10px;
+                    transition: all .2s;
+                    box-shadow: 1px 1px 5px rgba(63, 45, 45, 0.20) inset !important;
+                    border: medium none;
+                    color: #666;
+                    font-size: 13px;
+                    height: 40px;
+                    margin: 0;
+                    padding-left: 19px;
+                    width: 100%;
+                }
+
+                &__button {
+                    background: #2b2b2b;
+                    border: medium none;
+                    cursor: pointer;
+                    height: 100%;
+                    line-height: 1;
+                    position: absolute;
+                    right: 0;
+                    text-transform: uppercase;
+                    top: 0;
+                    width: inherit;
+                    border-radius: 0 10rem 10rem 0;
+                    color: $color-white;
+                    font-weight: 500;
+                    font-family: $font-display;
+                    padding: .1rem 2.4rem;
+                    transition: all .5s;
+                }
+            }
+        }
+
+        &--phone {
+            line-height: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            color: $color-dark;
+
+            & span {
+                padding: 0 15px;
+            }
+        }
+
+        & .my-account {
+            color: $color-secondary;
+            line-height: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+        }
+    }
+
+    // Middle {
+    &__middle {
+        padding: 10px 0;
+
+        & .nav-item.active .nav-link {
+            color: $color-primary !important;
+        }
+
+        & .nav-link {
+            font-size: 1.4rem;
+            color: $color-dark;
+            font-weight: 700;
+            letter-spacing: .92px;
+            margin: 0 10px;
+            text-transform: uppercase;
+        }
+
+        & input:focus {
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+
+        & button {
+            background: $color-primary;
+            color: $color-white;
+
+            &:hover {
+                color: $color-white;
+            }
+        }
+
+        & input,
+        & button {
+            display: inline-block;
+            font-size: 1.4rem;
+            border-radius: 0 !important;
+        }
+    }
+
+    // Bottom
+    &__bottom {
+        background: $color-secondary;
+        color: $color-white;
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 12px 0;
+        font-family: $font-display;
+
+        
+
+        &--box {
+            display: inline-block;
+            margin: 0 25px 0 0;
+
+            &-1 {
+                width: 32px;
+                height: 30px;
+            }
+
+            &-2 {
+                width: 49px;
+                height: 23px;
+            }
+
+            &-3 {
+                width: 23px;
+                height: 26px;
+            }
+
+            &-4 {
+                width: 57px;
+                height: 17px;
+            }
+
+            &-5 {
+                // width: 238px;
+                height: 28px;
+            }
+        }
+    }
+}
+
+
+// Navbar
+.dropdown-item {
+    font-size: 1.6rem;
+}
+
+.dropdown-menu {
+    border-radius: 0px !important;
+    border: none;
+    padding: 0 !important;
+    border-top: 2px solid $color-tertiary !important;
+}
+
+.dropdown-menu a:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu a {
+    display: inline-block;
+    padding: 5px 60px 5px 20px;
+    text-transform: none;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.6);
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-toggler i {
+    color: $color-white;
+}

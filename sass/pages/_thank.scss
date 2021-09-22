@@ -1,0 +1,36 @@
+.thank {
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+        & i {
+            font-size: 8rem;
+            color: $color-primary;
+            
+        }
+
+        & h1 {
+            font-size: 4rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+
+        & span {
+            @include respond(phone) {
+                font-size: 1.6rem;
+                padding: 0 1rem;
+            }
+        }
+    }
+
+    & .btn-continue {
+
+        @include respond(phone) {
+            width: 75% !important;
+        }
+    }
+    
+    
+}

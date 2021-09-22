@@ -1,0 +1,280 @@
+.gadget-detail {
+    background: #f5f2ee;
+    padding: 2rem 0;
+
+
+    &__card {
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        
+        &--title {
+            color: $color-secondary;
+            font-size: 2.4rem;
+            margin: 2rem 0;
+        }
+
+        & img {
+            object-fit: cover;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &__form {
+        padding: 2rem;
+
+        & label {
+            font-size: 1.4rem;
+            color: #7b7c7c;
+        }
+
+        & .button-label {
+            width: 200px;
+            border: 1px solid hsla(0,0%,43.9%,.12);
+            margin-right: 20px;
+            background-color: #fafafa;
+            border-radius: 6px;
+            height: 40px;
+            cursor: pointer;
+            padding: 7px;
+            text-align: left;
+        }
+
+        & .mr-16 {
+            margin-right: 16px!important;
+        }
+
+        & input[type=checkbox], input[type=radio] {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        & .btn-submit {
+            margin-top: 15px;
+            color: $color-white;
+            background-color: $color-primary;
+            padding: 8px 16px;
+            box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $color-white;
+                box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+            }
+        }
+
+        &--title {
+            color: #7b7c7c;
+            font-weight: 500;
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        & .form-row {
+            text-align: left;
+        }
+
+        & .dispb {
+            display: block!important;
+        }
+    }
+    
+
+    &__wrapper {
+        background: $color-white;
+        padding: 7rem 2rem;
+        border-radius: 20px;
+        -webkit-box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+
+        &--details {
+
+            & h6 {
+                font-size: 1.6rem;
+            }
+
+            & .device-name {
+                color: $color-primary;
+                font-size: 3rem;
+                font-weight: 700;
+            }
+
+            & .variant-title {
+                margin-top: 2rem;
+                font-size: 2rem;
+            }
+
+            & .variant {
+                list-style: none;
+                display: flex;
+                margin-top: 3rem;
+                
+
+                & li {
+                    margin-right: 2rem;
+                    padding: 15px 30px;
+                    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.14);
+
+                    & a {
+                        font-size: 1.6rem;
+                        color: $color-dark;
+                    }
+                }
+                
+             
+        
+            }
+
+            & .variant-btn {
+                padding: 1rem 3rem;
+                font-size: 1.6rem;
+                background: $color-primary;
+                color: $color-white;
+                margin-top: 3rem;
+                border-radius: 20px;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.16);
+
+                &:hover {
+                    background: $color-tertiary;
+                    color: $color-white;
+                }
+            }
+        }
+
+        &--form {
+
+            & input, 
+            & label,
+            & button {
+                font-size: 1.6rem;
+            }
+
+            & .question__wrapper h6 {
+                color: $color-dark;
+                font-weight: 700;
+            }
+
+            & .option {
+                background: #fafafa;
+                margin-right: 5rem;
+                margin-bottom: 2rem;
+                padding: 1rem 2rem;
+                border: 1px solid rgba(0, 0, 0, 0.14);
+                border-radius: 6px;
+                display: inline-block;
+            }
+
+            * .note {
+                font-size: 1.4rem;
+                color: red;
+            }
+
+        }
+    }
+}
+
+// Modal
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 520px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+
+    @include respond(phone) {
+        width: 100%;
+    }
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    // left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+            transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+    
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 0;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+.modal-span {
+    font-size: 1.4rem;
+    color: #7b7c7c;
+}
+
+.modal-form {
+
+    & input,
+    & span  {
+        height: 26px;
+        border-radius: 8px;
+        border-color: transparent;
+        background-color: #ffffff;
+        color: #888888;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.28);
+        font-size: 1.6rem;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+}
+
+
+.btn-continue {
+    margin-top: 3rem;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    width: 100%;
+    font-size: 1.6rem !important;
+    color: $color-white !important;
+    background: $color-secondary !important;
+}

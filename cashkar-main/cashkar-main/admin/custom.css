@@ -1,0 +1,14 @@
+.blog-head {
+    margin-left: 30px;
+    height: 50px;
+}
+
+.head-text {
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.links {
+    line-height: 50px;
+    color: rgba(37, 37, 189, 0.781);
+}

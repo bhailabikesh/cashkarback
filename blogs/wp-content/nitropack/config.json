@@ -1,0 +1,19 @@
+{
+    "cashkar.in\/blogs": {
+        "siteId": "fEQgyKHoROaxABpjSVBEclcrhFgUZknf",
+        "siteSecret": "BTyIKLX1affzuintVNuVpgk0LNICloSY3EZshwqrBbbp7SlWbBQ4vh4jl1H3E6ZF",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "b2affe6092c4fbb16f105cab53d27b18",
+        "home_url": "https:\/\/cashkar.in\/blogs",
+        "admin_url": "https:\/\/cashkar.in\/blogs\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.7"
+    }
+}

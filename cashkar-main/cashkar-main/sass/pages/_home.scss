@@ -1,0 +1,385 @@
+// Section title
+section {
+    padding: 9rem 0 5rem;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 2rem;
+
+    &__heading {
+        font-size: 3.4rem;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 20px;
+        display: inline-block;
+
+        &:before {
+            content: "";
+            position: absolute;
+            margin: 0 auto;
+            // left: 0;
+            bottom: 0;
+            width: 80px;
+            height: 4px;
+            background: $color-secondary;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+    }
+
+    &__description {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+}
+
+// Slider
+.top-25 {
+    top: 25%;
+
+    @include respond(phone) {
+        top: 20%;
+    }
+}
+
+.carousel-caption {
+    
+    & h5 {
+        font-size: 5rem;
+        font-weight: 800;
+        color: $color-white;
+        margin-bottom: 4rem;
+
+        @include respond(phone) {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        & span {
+            color: $color-secondary;
+        }
+
+       
+    }
+
+    & a {
+        font-size: 1.8rem;
+        background: $color-primary;
+        color: $color-white;
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: 2px solid $color-primary;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+        transition: all .5s;
+        
+        &:hover {
+            color: $color-white;
+            border: 2px solid $color-primary;
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+            opacity: 0.9;
+        }
+
+        @include respond(phone) {
+            padding: 5px 20px;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+
+    @include respond(phone) {
+        height: 40vh;
+    }
+}
+
+// Category
+
+.category {
+
+    &__card {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+        transition: all .5s;
+
+        &:hover {
+            box-shadow: 0 0 26px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        &--title {
+            text-align: center;
+            color: $color-dark;
+        }
+
+        &--img {
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+}
+
+// End of Category
+
+// Step
+.step {
+
+    background: #f7f8fa;
+
+    &__card {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+        transition: all .5s;
+        position: relative;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.08);
+        }
+        
+
+        &--icon {
+            position: absolute;
+            top: -35px;
+            width: 90px;
+            height: 90px;
+            background-color: $color-white;
+            border-radius: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+
+            & i {
+                font-size: 4rem;
+                margin: 0 auto;
+                color: $color-primary;
+            }
+        }
+
+        &--title {
+            margin: 5rem 0 2rem;
+            text-align: center;
+        }
+
+        &--description {
+            text-align: center;
+            font-size: 1.5rem;
+            letter-spacing: 0.8px;
+            line-height: 2.4rem;
+        }
+
+    }
+}
+// End of Step
+
+// Choose
+.choose {
+
+    &__card {
+
+        &--img {
+            width: 136px;
+            height: 115px;
+            margin: 0 auto 15px;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &--title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        &--description {
+            text-align: center;
+            font-size: 1.5rem;
+            letter-spacing: .8px;
+            line-height: 2.4rem;
+        }
+    }
+}
+// End of Choose
+
+// FAQs
+.faq {
+    background: #f7f8fa;
+
+    & .accordion {
+        font-size: 1.6rem;
+        letter-spacing: 0.7px;
+
+        & button {
+            font-size: 1.7rem;
+            color: $color-dark;
+            font-weight: 600;
+        }
+
+        & strong {
+            display: block;
+        }
+    }
+}
+
+// End of FAQs
+
+// Testimonials
+.testimonial {
+    background: #eee;
+
+    &__carousel {
+        margin-top: 3rem;
+    }
+
+    &__card {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    &__img {
+        width: 45px !important;
+        height: 45px;
+        border-radius: 120px;
+        object-fit: cover;
+    }
+
+    &__client {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+        color: $color-dark;
+        font-weight: 600;
+    }
+
+    &__description {
+        margin-left: 0px;
+        display: inline;
+        width: 100%;
+        float: left;
+        padding: 0px;
+        border: 0px;
+        line-height: 1.65em;
+        font-size: 1.4rem;
+        margin-top: 2rem;
+    }
+
+    &__rating i {
+        margin: 1.4rem .3rem 0 .3rem;
+        color: #ffc662;
+        font-size: 1.3rem;
+    }
+
+    & .owl-carousel i.fas.fa-angle-left,
+    & .owl-carousel i.fas.fa-angle-right {
+        background-color: rgba($color-primary, 0.8);
+        font-size: 2.5rem;
+        padding: 0.8rem 1rem;
+        color: #fff;
+        position: absolute;
+        top: 40%;
+    }
+
+    & .owl-carousel i.fas.fa-angle-left {
+        left: 0;
+    }
+
+    & .owl-carousel i.fas.fa-angle-right {
+        right: 0;
+    }
+}
+// End of Testimonials
+
+// Subscribe
+.subscribe {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/subscibe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.85;
+    padding: 15rem 0;
+
+    & .section-title {
+        color: $color-white;
+    }
+
+    &__form {
+        margin-top: 2.2rem;
+        flex: 0 0 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: 1.5rem;
+
+        @include respond(phone) {
+            flex: 0 0 80%;
+        }
+    }
+
+    &__input {
+        border-radius: 10rem;
+        transition: all .2s;
+        border: medium none;
+        color: #666;
+        font-size: 1.3rem;
+        height: 5rem;
+        margin: 0;
+        padding-left: 19px;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        background: $color-primary;
+        border: medium none;
+        height: 100%;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        text-transform: uppercase;
+        top: 0;
+        width: inherit;
+        border-radius: 0 10rem 10rem 0;
+        color: #fff;
+        font-weight: 500;
+        padding: .1rem 2.4rem;
+        transition: all .5s;
+    }
+
+    &__social-links {
+        margin-top: 4rem;
+
+        & a {
+            font-size: 18px;
+            display: inline-block;
+            background: $color-white;
+            color: $color-primary;
+            line-height: 1;
+            padding: 10px 0;
+            margin-right: 4px;
+            border-radius: 10px 10px 10px 0px;
+            text-align: center;
+            width: 38px;
+            height: 38px;
+            transition: 0.4s;
+
+            &:hover {
+                background: $color-primary;
+                color: $color-white;
+            }
+        }
+    }
+}
+// End of Subscribe

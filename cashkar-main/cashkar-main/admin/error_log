@@ -1,0 +1,2 @@
+[17-Aug-2021 06:03:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/admin/models.php on line 115
+[17-Aug-2021 11:30:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/admin/models.php on line 115

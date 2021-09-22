@@ -1,0 +1,87 @@
+.list-brand {
+    background: #f5f2ee;
+    padding: 2rem 0;
+    
+
+    &__wrapper {
+        background: $color-white;
+        padding: 2rem;
+        -webkit-box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+        
+        &--subtitle {
+            color: $color-primary;
+            font-size: 18px;
+            letter-spacing: .1em;
+            font-weight: 700;
+            line-height: 1.7em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+        
+        &--title {
+            color: #3d4246;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            margin-top: 0;
+        }
+    }
+
+    &__card {
+        border-radius: 20px !important;
+        padding: 1rem;
+
+        &:hover {
+            border-color: $color-primary;
+            
+        }
+
+        &--title {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: $color-dark;
+        }
+    }
+}
+
+// ===========================================
+// LIST MOBILE CSS
+
+.faqs {
+
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        font-family: $font-display;
+    }
+
+    &__description {
+        font-size: 1.4rem;
+    }
+
+    &__list {
+        font-size: 1.4rem;
+        list-style: none;
+
+        & li {
+          position: relative; 
+          padding: 3px 0px 3px 20px;
+
+          &::after {
+            position: absolute;
+            color: $color-primary;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 400;
+            content: "\f058";
+            right: auto;
+            top: 2px;
+            font-size: 12px;
+            left: 0;
+          }
+        }
+    }
+}

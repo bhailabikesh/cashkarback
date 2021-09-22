@@ -1,0 +1,2 @@
+[31-Aug-2021 12:51:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gadgetzc/cashkar.in/blogs/wp-admin/includes/template.php:2532) in /home/gadgetzc/cashkar.in/blogs/wp-includes/pluggable.php on line 1340
+[31-Aug-2021 12:51:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gadgetzc/cashkar.in/blogs/wp-admin/includes/template.php:2532) in /home/gadgetzc/cashkar.in/blogs/wp-includes/pluggable.php on line 1343

@@ -1,0 +1,89 @@
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2244368 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[30-Jul-2021 08:34:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2309895 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:10:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2311245 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:10:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:10:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:10:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:11:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:11:07 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:11:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 29
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 30
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 208
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/price.php on line 209
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 21
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/sell-ipad-and-tablets/faq-ipads.php on line 22
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[31-Jul-2021 06:11:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=23 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=1081792 in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/gadgetzc/cashkar.in/content/connection.php on line 16
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/tablets.php on line 4
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/tablets.php on line 5
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gadgetzc/cashkar.in/top-selling.php on line 10
+[16-Aug-2021 09:05:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gadgetzc/cashkar.in/top-selling.php on line 11
